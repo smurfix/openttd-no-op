@@ -18,5 +18,6 @@ class NoOpAI extends AIController {
 
 function NoOpAI::Start()
 {
+    while(true) { AIController.Sleep(74); }
 }
 
