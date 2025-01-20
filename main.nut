@@ -16,7 +16,7 @@ class NoOpAI extends AIController {
 	constructor() { }
 }
 
-function TutorialAI::Start()
+function NoOpAI::Start()
 {
 }
 

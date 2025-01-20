@@ -18,14 +18,12 @@ class NoOpAI extends AIInfo {
 	function GetShortName()            { return "NopA"; }
 	function GetDescription() { return "This AI doesn't do anything. It's a placeholder."; }
 	function GetAPIVersion()  { return "1.0"; }
-	function GetVersion()     { return 1; }
+	function GetVersion()     { return 2; }
 	function MinVersionToLoad() { return 1; }
 	function GetDate()        { return "2025-01-20"; }
 	function GetUrl()         { return "http://github.com/smurfix/openttd-no-op"; }
 	function UseAsRandomAI()  { return false; }
 	function CreateInstance() { return "NoOpAI"; }
-
-
 	function GetSettings() {}
 	}
 }
