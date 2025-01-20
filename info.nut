@@ -15,7 +15,7 @@
 class NoOpAI extends AIInfo {
 	function GetAuthor()      { return "Smurfix"; }
 	function GetName()        { return "NoOpAI"; }
-	function GetShortName()            { return "NoOpAI"; }
+	function GetShortName()            { return "NopA"; }
 	function GetDescription() { return "This AI doesn't do anything. It's a placeholder."; }
 	function GetAPIVersion()  { return "1.0"; }
 	function GetVersion()     { return 1; }
